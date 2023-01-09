@@ -55,7 +55,7 @@ atomic_tests:
 - name: Create Windows Hidden File with Attrib
   auto_generated_guid: dadb792e-4358-4d8d-9207-b771faa0daa5
   description: |
-    Creates a file and marks it as hidden using the attrib.exe utility.Upon execution, open File Epxplorer and enable View > Hidden Items. Then, open Properties > Details on the file
+    Creates a file and marks it as hidden using the attrib.exe utility.Upon execution, open File Explorer and enable View > Hidden Items. Then, open Properties > Details on the file
     and observe that the Attributes are "SH" for System and Hidden.
   supported_platforms:
   - windows
