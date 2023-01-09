@@ -62,7 +62,7 @@ atomic_tests:
   auto_generated_guid: bec1e95c-83aa-492e-ab77-60c71bbd21b0
   description: |
     Removes the read-only attribute from a file or folder using the attrib.exe command. Upon execution, no output will be displayed.
-    Open the file in File Explorer > Right Click - Prperties and observe that the Read Only checkbox is empty.
+    Open the file in File Explorer > Right Click - Properties and observe that the Read Only checkbox is empty.
   supported_platforms:
   - windows
   input_arguments:
