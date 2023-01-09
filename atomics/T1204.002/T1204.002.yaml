@@ -174,7 +174,7 @@ atomic_tests:
     This module creates an Excel 4 Macro (XLM) enabled spreadsheet and executes it. The XLM will first write a "malicious"
     VBS file to %TEMP%, then execute this file. The VBS will download Process Explorer to the same directory (%TEMP%) and exec.
 
-    A note regarding this module. By default, this module will pull the current username from the system and places it into the macro. If
+    A note regarding this module. By default, this module will pull the current username from the system and place it into the macro. If
     you'd like to utilize the "=GET.WORKSPACE(26)" method, that many maldoc authors use, you will need to ensure that the User Name associated
     with Excel matches that of the local system. This username can be found under Files -> Options -> Username
   supported_platforms:
