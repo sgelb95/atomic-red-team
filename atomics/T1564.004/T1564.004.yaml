@@ -86,7 +86,7 @@ atomic_tests:
 - name: Create ADS PowerShell
   auto_generated_guid: 0045ea16-ed3c-4d4c-a9ee-15e44d1560d1
   description: |
-    Create an Alternate Data Stream with PowerShell. Write access is required. To verify execution, the the command "ls -Recurse | %{ gi $_.Fullname -stream *} | where stream -ne ':$Data' | Select-Object pschildname"
+    Create an Alternate Data Stream with PowerShell. Write access is required. To verify execution, the command "ls -Recurse | %{ gi $_.Fullname -stream *} | where stream -ne ':$Data' | Select-Object pschildname"
     in the %temp% direcotry to view all files with hidden data streams. To view the data in the alternate data stream, run "notepad.exe T1564.004_has_ads_powershell.txt:adstest.txt" in the %temp% folder.
   supported_platforms:
   - windows
