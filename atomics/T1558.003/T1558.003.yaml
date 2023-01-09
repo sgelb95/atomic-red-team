@@ -127,7 +127,7 @@ atomic_tests:
 - name: Request All Tickets via PowerShell
   auto_generated_guid: 902f4ed2-1aba-4133-90f2-cff6d299d6da
   description: |
-    The following test will utilize native PowerShell Identity modules to query the domain to extract allthe Service Principal Names. This behavior is typically used during a kerberos or silver ticket attack. 
+    The following test will utilize native PowerShell Identity modules to query the domain to extract all the Service Principal Names. This behavior is typically used during a kerberos or silver ticket attack. 
     A successful execution will output the SPNs for the domain in question.
   supported_platforms:
   - windows
